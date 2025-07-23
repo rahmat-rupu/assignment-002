@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     margin: 20px auto;
     margin-top: 45px;
+    margin-bottom: 120px;
 }
 .home{
     margin-left: 500px;
@@ -27,4 +28,12 @@
 }
 .S{
     color: rgba(137, 135, 161, 1);
+}
+.mid1{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.mid1-content{
+    padding-top: 160px;
 }
