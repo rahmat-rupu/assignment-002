@@ -126,6 +126,14 @@
     height: 590px;
     width: 540px;
 }
+.badge-img{
+    position: absolute;
+    width: 286px;
+    height: auto;
+    /* top: -50px; */
+    right: 700px;
+    top: 2150px;
+}
 .mid3-heading{
     font-size: 3.12rem;
     font-weight: bold;
