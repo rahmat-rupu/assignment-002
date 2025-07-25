@@ -148,6 +148,7 @@
     justify-content: space-around;
     margin-left: 150px;
     margin-right: 150px;
+    position: relative;
 }
 .mid4-content{
     margin-bottom: 120px;
@@ -155,6 +156,9 @@
 .box1{
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
+    /* position: absolute; */
+    /* inset: 0; */
+    /* background: rgba(0, 0, 0, 0.5); */
     width: 366px;
     height: 206px;
     color: white;
@@ -251,4 +255,33 @@
 .footer-icons img {
   width: 25px;
   margin-right: 15px;
+}
+/* .mid3-content{
+
+} */
+
+@media  screen and (max-width : 576px) {
+    .hidden{
+        display: none;
+    }
+    .mid1{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+     .mid1 img{
+        margin-top: 20px;
+    }
+    .mid2-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .mid3{
+        flex-direction: column;
+    }
+    .list-item {
+    max-width: none;      
+    white-space: normal;   
+    display: list-item;    
+  }
 }
