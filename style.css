@@ -261,6 +261,10 @@
 } */
 
 @media  screen and (max-width : 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .hidden{
         display: none;
     }
@@ -276,12 +280,51 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-    .mid3{
+    .mid3, .mid4-images, .footer{
         flex-direction: column;
     }
     .list-item {
-    max-width: none;      
+    
+    max-width: 100%;      
     white-space: normal;   
     display: list-item;    
   }
+  .mid4-images{
+    margin-left: 15px;
+  }
+  .mid4-content{
+    text-align: center;
+  }
+  .box3{
+   background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* inset: 0; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    width: 366px;
+    height: 206px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 65px;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .mid5{
+    width: 570px;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 20px;
+    height: 300px;
+    margin-right: 15px;
+  }
+  .footer-icons img{
+    display: flex;
+  }
+  .mid4{
+    width: 100%;
+  }
+
 }
